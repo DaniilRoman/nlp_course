@@ -12,7 +12,7 @@ def remove_html_tags(html):
 
 
 def stay_only_a_z(text):
-    text = re.sub(r'[^(a-zA-Z)\s]','', text)
+    text = re.sub(r'[^a-zA-Z\s]','', text)
     return text
 
 
